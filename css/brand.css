@@ -378,4 +378,8 @@ button {
         justify-content: space-evenly;
         justify-items: center;
     }
+    .foto_visión {
+        width: 280px;
+        height: 180px;
+    }
 }
