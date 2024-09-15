@@ -338,11 +338,10 @@ button {
     }
 
     .grid_3 {
-        display: flex;
-        flex-direction: column;
-        gap: 50px;
-
+        grid-template-columns: repeat(2, 1fr);
     }
+
+    
 
     .grid_5 {
         display: flex;
