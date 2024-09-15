@@ -1,0 +1,531 @@
+/* Aquí se define exclusivamente estilo aplicado a la página home/index */
+
+/* Importa el stlyles.css para enlazar los estilos del brand, header y footer */
+@import url(styles.css);
+
+
+
+/* Estilos de la sección Portada 1 */
+
+#portada1 {
+    background-color: #efefef;
+}
+.portada1 {
+    height: calc(70vh - 80px);
+}
+
+.foto_portada1 {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 100%;
+
+    & img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.textos_portada1 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+
+    & h1 {
+        color: var(--colornegro);
+    }
+}
+
+/* Estilos de la sección Portada 2 */
+#portada2 {
+    background-image: url("../image/banner.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.portada2 {
+    height: calc(60vh - 80px);
+}
+
+
+.boton_portada2 {
+    position: relative;
+    top: 55%;
+    left: 5%;
+}
+#portada3 {
+    background-image: url("../image/portada3.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.portada3 {
+    height: calc(60vh - 80px);
+}
+
+
+.boton_portada3 {
+    position: relative;
+    top: 55%;
+    left: 5%;
+}
+
+#portada5 {
+    background-image: url("../image/banner.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.portada5 {
+    height: calc(60vh - 80px);
+}
+
+
+.boton_portada5 {
+    position: relative;
+    top: 55%;
+    left: 5%;
+}
+
+
+/* .producto {
+    position: absolute;
+    display: inline-block;
+
+    & .foto_producto {
+        width: 100;
+        height: auto;
+    }
+
+    & .boton_producto {
+        position: absolute;
+        bottom: 0%;
+        left:20%;
+        padding:25px ;
+    }
+} */
+/* ESTILOS DE PRODUCTOS */
+
+.productos_titulo h3 {
+    text-align: center;
+    color: var(--colorprincipal);
+    padding-bottom: 80px;
+}
+
+.servicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+    & h6{
+        text-transform: none;
+    }
+
+    & p{
+        text-transform: none;
+    }
+}
+
+.servicio_foto img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+
+#banner {
+    background-color: var(--colorprincipal);
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner_textos {
+    color: var(--colorblanco);
+}
+
+/* ESTILOS DE testimonio */
+
+.testimonios_titulo h3 {
+    text-align: center;
+    color: var(--colorprincipal);
+    padding-bottom: 80px;
+}
+
+.testimonio {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 25px;
+
+    & h5 {
+        text-transform: none;
+        color: var(--coloramarrillo);
+    }
+}
+
+.testimonio_foto img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+
+/* ESTILO CERTIFICADO*/
+#certificados{
+    background-color: var(--colorverdeclaro);
+}
+.certificados_texto h4{
+    text-align: center;
+    color: var(--colorprincipal);
+}
+.certificados {
+    padding: 15px 0;
+
+}
+.certificado{
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+.certificado_foto img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+/* ESTILO noticias*/
+
+.textos_noticias {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+
+    & h1 {
+        color: var(--coloramarrillo);
+    }
+}
+.noticias {
+    height: calc(70vh - 80px);
+}
+.foto_noticias {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 100%;
+
+    & img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* ESTILO NOSOTROS*/
+
+.textos_nosotros {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+
+
+    & h1 {
+        color: var(--coloramarrillo);
+    }
+}
+
+.foto_nosotros {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 100%;
+
+    & img {
+        width: 100%;
+        height: auto;
+    }
+}
+/* ESTILO historia*/
+.texto_historia1{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+
+    & h2 {
+        color: var(--colornaranja);
+    }
+
+}
+
+.texto_historia3{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+
+    & h2 {
+        color: var(--colorhistoria);
+    }
+
+}
+/* ESTILO mision*/
+.foto_mision {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 100%;
+
+    & img {
+        width: 100%;
+        height: auto;
+    }
+}
+.texto_mision {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+
+    & h2 {
+        color: var(--colormision);
+    }
+}
+
+.listas_datos_imagen {
+    display: flex;
+    align-items: center;
+}
+
+.contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ESTILO equipo*/
+#personas{
+    background-color: var(--colorverdeclaro);
+}
+.personas_texto h4{
+    text-align: center;
+    color: var(--colorprincipal);
+}
+.personas {
+    padding: 15px 0;
+
+}
+.persona{
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;;
+}
+.persona_foto img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+
+.mision{
+    height: calc(70vh - 80px);
+}
+
+.recomendado_titulo h3 {
+    text-align: center;
+    color: var(--colorprincipal);
+    padding-bottom: 80px;
+}
+
+.recomendamos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.recomendamos_foto img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+
+#portada4 {
+    background-image: url("../image/Portada...\ .jpg");
+    background-size: cover;
+}
+
+.portada4 {
+    height: calc(70vh - 80px);
+}
+
+.textos_portada4{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+
+    & h1 {
+        color: var(--colorazul);
+    }
+}
+
+.noticia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--colorprincipal );
+    align-items: center;
+}
+
+.venta {
+    display: grid;
+    justify-content: center;
+    color: var(--colorprincipal );
+    align-items: center;
+    gap: 50px;
+}
+
+.noti_texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--colorrosado);
+}
+
+.noti_tex {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.noti_foto {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-items: center;
+    align-items: center;
+}
+
+.foto_nosotros {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-items: center;
+}
+
+.tex_nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--colorrosado);
+}
+
+.textos_visión {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.datos p {
+    margin-top: 25px;
+}
+
+.listas_datos {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.listas_datos_1 {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.listas_datos_imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    background-color: var(--colorblanco);
+    border-radius: 10px;
+}
+
+/* Estilos de items del formulario columna 2 */
+
+.formulario_input {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.grupos_input input,
+textarea {
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.titulomapa {
+    text-align: center;
+    padding: 50px;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 767px) {
+    .banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .banner_textos h3,
+    p {
+        text-align: center;
+    }
+
+    .portada4 {
+        height: calc(60vh - 80px);
+    }
+
+    .noticia {
+        display: grid;
+        flex-direction: column;
+        justify-content: center;
+        color: var(--colorprincipal );
+        align-items: center;
+    }
+    
+}
+
+@media (max-width: 1023px) {
+    .banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .banner_textos h3,
+    p {
+        text-align: center;
+    }
+
+
+    .portada4 {
+        height: calc(60vh - 80px);
+    }
+}
